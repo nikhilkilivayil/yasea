@@ -1,7 +1,5 @@
 package com.seu.magicfilter.utils;
 
-import android.content.Context;
-
 import com.seu.magicfilter.advanced.MagicAmaroFilter;
 import com.seu.magicfilter.advanced.MagicAntiqueFilter;
 import com.seu.magicfilter.advanced.MagicBeautyFilter;
@@ -53,7 +51,7 @@ import com.seu.magicfilter.base.gpuimage.GPUImageHueFilter;
 import com.seu.magicfilter.base.gpuimage.GPUImageSaturationFilter;
 import com.seu.magicfilter.base.gpuimage.GPUImageSharpenFilter;
 
-public class MagicFilterFactory{
+public class MagicFilterFactory {
 
     public static GPUImageFilter initFilters(MagicFilterType type) {
         switch (type) {
